@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head><title>Manitique.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+    <section class="headingsection">
+    <nav>
+        <h1 class="logo">Manitique</h1>
+        <div class="navigations">
+     <i class="fa fa-close" onclick="show()"></i>
+         <ul>
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="movies.html">MOVIES</a></li>
+            <li><a href="TV.html">TV</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="blogs.html">BLOGS</a></li>
+            </ul>
+            </div>
+<i class="fa fa-bars" onclick="show()"></i>
+        </nav>
+            <h1 class="aboutHead">About Us</h1>
+            <h2 class="aboutMe">This is just a dummy websiite created by <br> me 'Manish Karki' <br> just to demonstrate my basic web development skills like HTML, CSS, and JAVASCRIPT.
+
+            <br>
+            All the contents available on this website are not owned by me <br> and rather belongs to their respective owners and their copyright holders. So <br> I've provided the links to those original websites as much as possible <br> in the buttons. You can click them and check them out. If any problems <br>arouses regarding copyright issues, you can contact us through following <br> social media handles.
+            </h2>
+            </section>
+            <h2 class="forFun">You can still checkout different web pages of this website <br> just to know about some awesome movies and series available on this site.</h2>
+            <div class="footer">
+
+              <h1 class="foot">Our Social handles:</h1> 
+              <ul class="footer-icons">
+                <a href=""><li>Facebook:<i class="fa fa-facebook"></i></li></a>
+                <a href=""><li>Twitter:<i class="fa fa-twitter"></i></li></a>
+                <a href=""><li>Instagram:<i class="fa fa-instagram"></i></li></a>
+                <a href=""><li>Linkedin:<i class="fa fa-linkedin"></i></li></a>
+              </ul> 
+            </div>
+        <script>
+      
+      var navs=document.querySelector(".navigations");
+function show(){
+    if(navs.classList.contains('Clicknav')){
+
+        navs.classList.remove("Clicknav");
+    }
+    else{
+        navs.classList.add("Clicknav");  
+    }
+
+}
+    </script>
+                    </body>
+                    </html>
